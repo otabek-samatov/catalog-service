@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: catalog-service
+server:
+  port: 9091
+  tomcat:
+    connection-timeout: 2
+    keep-alive-timeout: 15
+    threads:
+      max: 50
+      min-spare: 5
